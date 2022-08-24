@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Header from '../components/header';
+import PaginationTes from '../components/styles/pagination';
 // import Image from 'next/image';
 // import styles from '../styles/Home.module.css';
 
@@ -13,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="../styles/dist/output.css" />
       </Head>
-      <Header />
+      <PaginationTes />
     </div>
   );
 };

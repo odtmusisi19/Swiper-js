@@ -24,7 +24,7 @@ const Header = () => {
         onSlideChange={() => console.log('berhasil')}
         slidesPerView={3}
         loop
-        // className={styles.mySwiper}
+        className={styles.mySwiper}
         coverflowEffect={{ rotate: 50, stretch: 0, depth: 100, modifier: 1, slideShadows: true }}
       >
         <SwiperSlide className={'swiperslide'}>
