@@ -551,38 +551,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
+.font-bold {
+  font-weight: 700;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
+.text-pink-900 {
+  --tw-text-opacity: 1;
+  color: rgb(131 24 67 / var(--tw-text-opacity));
 }
 
 .text-red-800 {
@@ -590,68 +570,17 @@ video {
   color: rgb(153 27 27 / var(--tw-text-opacity));
 }
 
-/* .swiper-button-next,
-.swiper-button-prev {
-  color: black !important;
-}
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  display: none;
-} */
-
-/* .swiper-button-prev {
-  background-image: url('images/');
-} */
-
-.img-wrapper {
-  position: relative;
-  display: inline-block;
-  /* Make the width of box same as image */
+.text-teal-900 {
+  --tw-text-opacity: 1;
+  color: rgb(19 78 74 / var(--tw-text-opacity));
 }
 
-.img-wrapper .img-num {
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-  top: 40%;
-  /* Adjust this value to move the positioned div up and down */
-  /* background: rgba(0, 0, 0, 0.8); */
-  font-family: Arial, sans-serif;
-  color: #fff;
-  font-size: 40px;
-  width: 60%;
-  /* Set the width of the positioned div */
+.text-red-900 {
+  --tw-text-opacity: 1;
+  color: rgb(127 29 29 / var(--tw-text-opacity));
 }
 
-.img-num {
-  padding: 100px;
-}
-
-.img-wrapper img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.swiperslide {
-  height: 200px;
-  width: 300px;
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #000;
+.hover\:text-red-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
 }

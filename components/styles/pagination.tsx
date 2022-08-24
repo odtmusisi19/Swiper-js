@@ -16,15 +16,18 @@ const PaginationTes = () => {
   return (
     <>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
+        effect={'fade'}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
         className={styles.swiperSlide}
       >
-        <SwiperSlide className={styles.card}>Slide 1</SwiperSlide>
+        <SwiperSlide className={styles.card}>
+          <img src="images/image (1).jpg" alt="" />
+        </SwiperSlide>
         <SwiperSlide className={styles.card}>Slide 2</SwiperSlide>
         <SwiperSlide className={styles.card}>Slide 3</SwiperSlide>
         <SwiperSlide className={styles.card}>Slide 4</SwiperSlide>
